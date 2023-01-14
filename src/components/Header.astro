@@ -1,0 +1,19 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../config';
+---
+
+<header class="mb-8">
+  <h2 class="my-2">
+    {SITE_TITLE}
+  </h2>
+  <nav>
+    <HeaderLink href="/">Home</HeaderLink>
+    <HeaderLink href="/blog">Blog</HeaderLink>
+    <HeaderLink href="/about">About</HeaderLink>
+    <HeaderLink href="https://github.com/lnsmn" target="_blank">
+      GitHub
+    </HeaderLink>
+  </nav>
+</header>
+
