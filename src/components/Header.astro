@@ -3,8 +3,8 @@ import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../config';
 ---
 
-<header class="mb-8">
-  <h2 class="my-2">
+<header class="mb-8 flex flex-col items-center">
+  <h2 class="my-2 font-bold">
     {SITE_TITLE}
   </h2>
   <nav>
@@ -16,4 +16,3 @@ import { SITE_TITLE } from '../config';
     </HeaderLink>
   </nav>
 </header>
-
